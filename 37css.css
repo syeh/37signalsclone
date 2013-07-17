@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+.index {
+	/*height: 3630px;*/
+	width: 1205px;
+}
+.nav {
+	height: 48px;
+	width: 1145px;
+}
+.container {
+	width: 1145px;  
+	margin: 0 auto;
+}
+.footer {
+	margin: 0 auto;
+	width: 670px;
+}
+.index .nav ul {
+  text-align:right;
+}
+.index .nav ul li {
+	height: 15px;
+	width: 105px;
+	list-style-type: none;
+	text-align: right;
+	list-style-position: inside;
+	display: inline;
+	margin: 10px;
+	font-family: "Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+}
+.logo {
+	height: 39px;
+	width: 164px;
+	margin: auto;
+	background-image: url(../imgs/logo-37s-large.png);
+}
+
+.index .container .headline {
+	font-size: 60
+];
+	text-align: center;
+	padding: 20px;
+}
+.index .container .headline h1 {
+	font-size: 60px;
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+}
+.index .container .headline h5 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+}
+.index .container .basecamp {
+	height: 205px;
+	width: 160px;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 240px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	float: left;
+	
+}
+.basecamppng {
+	background-image: url(../imgs/logo-bc.png);
+	margin: auto;
+	height: 88px;
+	width: 105px;
+}
+.index .container .basecamp h3 {
+	text-decoration: underline;
+	text-align: center;
+	font-family: "Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 25px;
+}
+.blurb {
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 14px;
+}
+.index .container .highrise h3 {
+	font-size: 25px;
+	text-decoration: underline;
+	text-align: center;
+	font-family: "Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	
+}
+.highrise {
+	height: 205px;
+	width: 160px;
+	margin-top: 15px;
+	margin-right: : 10px;
+	margin-bottom: 5px;
+	margin-left: 75px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	float: left;
+	position: relative;
+	
+}
+.highrise img {
+	position: absolute;
+	left: 134px;
+	top: -20px;	
+	display: none
+	
+}
+.highrisepng {
+	background-image: url(../imgs/logo-hr.png);
+	margin: auto;
+	height: 88px;
+	width: 105px;
+}
+#header4 {
+	font-family: "Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	text-align: center;
+}
+#manageprojects {
+	text-align: center;
+	color: #F00;
+	font-family:"Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+}
+.campfire {
+	height: 217px;
+	width: 160px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 80px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	float: left;
+	position: relative;
+}
+.campfire img {
+	position: absolute;
+	left: -25px;
+	top: -20px;	
+	display: none
+}
+.campfirepng {
+	background-image: url(../imgs/logo-cf.png);
+	margin: auto;
+	height: 88px;
+	width: 105px;
+}
+h3 {
+	font-size: 25px;
+	text-decoration: underline;
+	text-align: center;
+}
+#campfireh4 {
+	font-family: "Lucida Grande", 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	text-align: center;
+}
+h4 {
+	font-weight: normal;
+}
+.empty {
+	clear:both;
+}
+.hrpng {
+	margin-left: 60px;
+	margin-top: 20px;
+	float:left;
+	height: 104px;
+	width: 143px;
+	background: url('http://37signals.com/images/img-customers.png') no-repeat 0 0;
+}
+.hrpng:hover {
+	background: url('http://37signals.com/images/img-customers.png') no-repeat 0 bottom;
+}	
+
+.customers {
+	height: 516px;
+	width: 820px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+.meet {
+	height: 104px;
+	width: 143px;
+	margin-top: 30px;
+	margin-left: -140px;
+	position: absolute;	
+}
+
+.arrow {
+	background-image: url(../imgs/arrow-customer.png);
+	height: 36px;
+	width: 69px;
+	margin-top: 75px;
+	margin-left: 170px;
+}
+.index .container .customers .meet p {
+	height: 12px;
+	width: 107px;
+	margin-top: -20px;
+	margin-left: 60px;
+}
+.index .container .customers h2 {
+	font-family: "TImes New Roman";
+	font-size: 40px;
+}
+.headline {
+	position: relative;
+}
+.headline img {
+	position: absolute;
+	left: 380px;
+	top: 195px;	
+	display: none;
+}
+
+
+	
