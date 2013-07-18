@@ -37,7 +37,7 @@
 	height: 39px;
 	width: 164px;
 	margin: auto;
-	background-image: url(../imgs/logo-37s-large.png);
+	background-image: url(http://37signals.com/images/logo-37s-large.png);
 }
 
 .index .container .headline {
@@ -73,7 +73,7 @@
 	
 }
 .basecamppng {
-	background-image: url(../imgs/logo-bc.png);
+	background-image: url(file:///KINGSTON/37signals/imgs/logo-bc.png);
 	margin: auto;
 	height: 88px;
 	width: 105px;
@@ -119,7 +119,7 @@
 	
 }
 .highrisepng {
-	background-image: url(../imgs/logo-hr.png);
+	background-image: url(file:///KINGSTON/37signals/imgs/logo-hr.png);
 	margin: auto;
 	height: 88px;
 	width: 105px;
@@ -160,7 +160,7 @@
 	display: none
 }
 .campfirepng {
-	background-image: url(../imgs/logo-cf.png);
+	background-image: url(file:///KINGSTON/37signals/imgs/logo-cf.png);
 	margin: auto;
 	height: 88px;
 	width: 105px;
@@ -210,7 +210,7 @@ h4 {
 }
 
 .arrow {
-	background-image: url(../imgs/arrow-customer.png);
+	background-image: url(file:///KINGSTON/37signals/imgs/arrow-customer.png);
 	height: 36px;
 	width: 69px;
 	margin-top: 75px;
